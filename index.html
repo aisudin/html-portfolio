@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - AI Sudin</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/default-theme.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">AI Sudin</h1>
+      <nav>
+        <a href="#about" class="text-base hover:text-gray-400 px-4">About</a>
+        <a href="#projects" class="text-base hover:text-gray-400 px-4">Projects</a>
+        <a href="#contact" class="text-base hover:text-gray-400 px-4">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="min-h-screen px-4 py-8">
+    <section id="about" class="flex flex-col items-center md:flex-row md:items-start mb-8">
+      <img src="./assets/myAvatar.svg" alt="About Me Image" class="w-24 h-24 mb-4 md:mb-0 mr-4 md:mr-0 md:order-first"/> 
+      <div class="text-center md:text-left">
+        <h2 class="text-2xl font-bold mb-4">About Me</h2>
+        <p class="text-lg leading-loose">Driven by a desire to forge my own path, I'm a versatile self-starter with a thirst for learning and a  track record of success in various fields. From translation (including projects for ABC and DEF) to web development, I thrive in independent work environments.</p>
+        <p>&nbsp;</p>
+        <p class="text-lg leading-loose">While initial ventures may not always reach fruition, I view challenges as stepping stones - the pursuit of a goal that may seem unattainable, but fuels my relentless drive.</p>
+        <p>&nbsp;</p>
+        <p class="text-lg leading-loose">I possess a strong foundation in knowledge and a passion for continuous exploration. Currently, I'm writing a detective story, translating poems for an e-book, and diving into deep learning programming.</p>
+        <p>&nbsp;</p>
+        <p class="text-lg leading-loose">Beyond work, I find joy in spending time with my son and traveling the world with my wife.  Fueled by a positive outlook and a youthful spirit, I'm always looking for the next adventure.</p>
+      </div>  
+    </section>
+
+    <section id="projects" class="mb-8">
+      <h2 class="text-2xl font-bold mb-4">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="bg-white shadow-md rounded-lg p-4">
+          <h3 class="text-lg font-bold mb-2">Project 1</h3>
+          <p class="text-base mb-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          <a href="#" class="text-blue-500 hover:text-blue-700 underline">Learn More</a>
+        </div>
+        <div class="bg-white shadow-md rounded-lg p-4">
+          <h3 class="text-lg font-bold mb-2">Project 2</h3>
+          <p class="text-base mb-2">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',</p>
+          <a href="https://www.google.com" target="_blank" text-blue-500 hover:text-blue-700 underline">Learn More</a>
+        </div>
+        </div>
+    </section>
+
+    <section id="contact" class="mb-8">
+      <h2 class="text-2xl font-bold mb-4">Contact</h2>
+      <p class="text-lg mb-4">Feel free to reach out to me at: <span style="user-select: none;">NonexistentEmail@example.com</span></p>
+    </section>
